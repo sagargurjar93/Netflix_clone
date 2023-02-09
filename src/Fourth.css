@@ -1,0 +1,110 @@
+.Fourth__img{
+    width: 15vh;
+    cursor: pointer;
+    position: relative;
+    left: 3vh;
+    top: 5vh;
+}
+.fourth__btn{
+    position: relative;
+    right: 3vh;
+    top: 5vh;
+}
+.stack{
+    margin-top: 10vh;
+    margin-left: 20vh;
+}
+.div{
+    background-color: red;
+    color: white;
+    height: 15vh;
+    width: 15vh;
+    text-align: center;
+    cursor: pointer;
+    /* margin-top: 1vh;    */
+}
+.Div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-left: 30%;
+    /* position: fixed; */
+    /* margin-left: 10%; */
+}
+.div :hover{
+    background-color: aqua;
+}
+.mon{
+    margin-left: 10%;
+    margin-top: 5vh;
+}
+.box{
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-top: 5vh;
+}
+.ptag{
+    margin-top: 3vh;
+    margin-left: 5vh;
+}
+.Div2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-left: 8%;
+    text-align:start;
+}
+.box2{
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-top: 3vh;
+}
+.fourth_b{
+    width: 30vh;
+    margin-left: 40%;
+    background-color: red;
+    color: white;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+}
+.fifth__stack{
+    text-align: center;
+    margin-top: 10%;
+}
+.fifth_b{
+    width: 30vh;
+    margin-left: 40%;
+    background-color: red;
+    color: white;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+    margin-top: 2vh;
+}
+.btn__n7{
+    height: 6vh;
+    width: 30%;
+    margin-top: 2vh;
+    margin-left: 35%;
+    text-align: start;
+    cursor: pointer;
+}
+.btn__n{
+    height: 6vh;
+    width: 30%;
+    margin-top: 2vh;
+    margin-left: 35%;
+    text-align: start;
+    cursor: pointer;
+}
+.logo__visa{
+    height: 3vh;
+    width: 5vh;
+    margin-left: 1vh;
+}
+.Nptag{
+    margin-left: 50%;
+    margin-bottom: -2vh;
+    margin-top: 3vh;
+}

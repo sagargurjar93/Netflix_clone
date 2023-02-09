@@ -1,0 +1,101 @@
+.second{
+    background-color: white;
+    color: black;
+    height: 100vh;
+}
+
+.second__img{
+    width: 15vh;
+    cursor: pointer;
+    position: relative;
+    /* top: 2px; */
+    left: 3vh;
+}
+
+.second__btn{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    padding: 4vh 15vh;
+    width: 50vh;
+    cursor: pointer;
+    position: relative;
+    /* left: 10vh; */
+}
+
+.second__content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 0;
+}
+.second__content p{
+    text-align: start;
+    justify-content: space-between;
+}
+.second__pass{
+    margin-top: 3vh;
+    display: flex;
+    width: 20rem;
+    height: 3rem;
+    font-size: 3vh;
+}
+.second__forgot{
+    margin-top: 3vh;
+}
+.second_btn2{
+    background-color: red;
+    margin-top: 3vh;
+    color: white;
+    width: 20rem;
+    height: 6vh;
+    font-size: 5vh;
+    text-decoration: none;
+}
+.second__footer{
+    margin-top: 50vh;
+    padding: 50px 15px 10px;
+    border-top: 6px solid rgb(110, 109, 109);
+    background-color: rgb(235, 229, 229);
+}
+.second__col{
+    display: flex;
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 4vh;
+    margin-left: 3vh;
+}
+.second__col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.second__row{
+    align-items: flex-start;
+    padding: 1vh 0;
+}
+.second h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.language__btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    width: 20vh;
+    cursor: pointer;
+    color: rgb(70, 69, 69);
+}
+.second__ptag{
+    margin-bottom: 1vh;
+}
+.second__email{
+    margin-top: 3vh;
+}

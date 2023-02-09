@@ -1,0 +1,52 @@
+.payment__img{
+    width: 15vh;
+    cursor: pointer;
+    position: relative;
+    left: 3vh;
+    top: 5vh;
+}
+.payment__btn{
+    position: relative;
+    right: 3vh;
+    top: 5vh;
+}
+.payment__div{
+    text-align: start;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+.change{
+    height: 10vh;
+    width: 48%;
+    background-color: rgb(188, 185, 185);
+    margin-top: 2vh;
+    color: black;
+    /* display: flex; */
+}
+.cng{
+    display: flex;
+    margin-left: 35vh;
+    margin-top: -3vh;
+}
+.ptag{
+    text-align: start;
+    margin-left: 35%;
+    margin-right: 30%;
+}
+.But{
+    margin-left: 45%;
+    margin-top: 3vh;
+}
+
+.payment__Div{
+    text-align: start;
+    margin-top: 2%;
+    margin-left: 35%;
+}
+.logo{
+    height: 4vh;
+    width: 6vh;
+    margin-left: 1vh;
+    margin-right: 2vh;
+}

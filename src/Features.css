@@ -1,0 +1,118 @@
+.features{
+    padding: 50px 12px;
+    font-size: 22px;
+    background: black;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text__col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img__col{
+    flex-basis: 40%;
+    margin-bottom: 20px;
+}
+.img__col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.faq{
+    padding: 10px 12px;
+    text-align: center;
+    font-size: 18px;
+}
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: rgb(30, 27, 27);
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+    overflow: hidden;
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    margin: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600pc;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.button{
+    background: red;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 45vh;
+    border: none;
+    font-size: 25px;
+    position: absolute;
+    left: 35%;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+button1::after{
+    content: '>';
+    font-size: 30px;
+}
+
+.video{
+    position: absolute;
+    top: 107rem;
+    height: 19vh;
+    right: 20%;
+}
